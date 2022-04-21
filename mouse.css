@@ -1,0 +1,148 @@
+#myimg {
+    position: absolute;
+    z-index: 9999999999999999;
+}
+
+html {
+    cursor: none;
+}
+
+.hideCircle {
+    display: none !important;
+}
+
+#circle-big {
+    display: block;
+    position: absolute;
+    margin-top: -58px;
+    margin-left: -58px;
+    transition: all 0.4s cubic-bezier(0.031, 0.09, 0.21, 0.46);
+    -webkit-transition: all 0.4s cubic-bezier(0.031, 0.09, 0.21, 0.46);
+    width: 80px;
+    height: 80px;
+    z-index: -1;
+    text-align: center;
+    border: 14px solid #fff;
+    border-radius: 50%;
+    z-index: 999;
+    /* box-shadow: 0px 0px 75px rgba(0,0,0,0.15); */
+    mix-blend-mode: difference;
+    -webkit-mix-blend-mode: difference;
+}
+
+#circle {
+    display: block;
+    position: absolute;
+    margin: auto;
+    width: 6px;
+    height: 6px;
+    margin-top: -6.5px;
+    margin-left: -6.5px;
+    background-color: #FFF;
+    border-radius: 50%;
+    z-index: -1;
+    /* box-shadow: 0px 0px 10px 4px rgba(255, 255, 255, 0); */
+    mix-blend-mode: difference;
+    -webkit-mix-blend-mode: difference;
+    z-index: 9999999 !important;
+}
+
+.on-link {
+    transform: scale(1.7);
+    z-index: 999 !important;
+}
+
+a {
+    font-size: 26px;
+    text-align: center;
+    margin: 100px auto;
+    display: block;
+}
+
+.blur1 {
+    filter: blur(1px) !important;
+}
+
+.blur2 {
+    filter: blur(2px) !important;
+}
+
+.blur3 {
+    filter: blur(3px) !important;
+}
+
+.blur4 {
+    filter: blur(4px) !important;
+}
+
+.blur5 {
+    filter: blur(5px) !important;
+}
+
+.blur6 {
+    filter: blur(6px) !important;
+}
+
+.blur7 {
+    filter: blur(7px) !important;
+}
+
+.rotate1 {
+    transform: rotate(10deg);
+}
+
+.rotate2 {
+    transform: rotate(20deg);
+}
+
+.rotate3 {
+    transform: rotate(30deg);
+}
+
+.rotate4 {
+    transform: rotate(40deg);
+}
+
+.rotate5 {
+    transform: rotate(50deg);
+}
+
+.rotate6 {
+    transform: rotate(60deg);
+}
+
+.rotate7 {
+    transform: rotate(70deg);
+}
+
+.rotate8 {
+    transform: rotate(80deg);
+}
+
+.rotate9 {
+    transform: rotate(90deg);
+}
+
+.rotate10 {
+    transform: rotate(100deg);
+}
+
+.orange {
+    border: 1px solid orange !important;
+}
+
+.orange2 {
+    background-color: orange !important;
+}
+
+.mainmenu a {
+    z-index: 99999999999999999999999 !important;
+    position: relative;
+    cursor: none !important;
+}
+
+.prev,
+.next {
+    z-index: 99999999999999999999999 !important;
+    position: absolute !important;
+}
